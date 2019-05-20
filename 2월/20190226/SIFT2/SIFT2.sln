@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SIFT2", "SIFT2.vcxproj", "{E3AA2A32-617F-4D1E-B19E-23E6E4FB156F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3AA2A32-617F-4D1E-B19E-23E6E4FB156F}.Debug|x64.ActiveCfg = Debug|x64
+		{E3AA2A32-617F-4D1E-B19E-23E6E4FB156F}.Debug|x64.Build.0 = Debug|x64
+		{E3AA2A32-617F-4D1E-B19E-23E6E4FB156F}.Debug|x86.ActiveCfg = Debug|Win32
+		{E3AA2A32-617F-4D1E-B19E-23E6E4FB156F}.Debug|x86.Build.0 = Debug|Win32
+		{E3AA2A32-617F-4D1E-B19E-23E6E4FB156F}.Release|x64.ActiveCfg = Release|x64
+		{E3AA2A32-617F-4D1E-B19E-23E6E4FB156F}.Release|x64.Build.0 = Release|x64
+		{E3AA2A32-617F-4D1E-B19E-23E6E4FB156F}.Release|x86.ActiveCfg = Release|Win32
+		{E3AA2A32-617F-4D1E-B19E-23E6E4FB156F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC964C07-98F3-4C9C-A5B3-8CAFB3DD0095}
+	EndGlobalSection
+EndGlobal

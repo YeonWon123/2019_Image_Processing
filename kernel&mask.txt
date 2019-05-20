@@ -1,0 +1,20 @@
+공간적 필터링을 구현함에 있어서 마스크(mask)를 사용하는 방식이 가장 일반적이다.
+마스크는 종종 윈도우(window), 템플릿(template), 커널(kernel)등의 용어들과 혼용되기도 한다. 
+(중략)
+마스크 연산을 이용한 공간적 필터링 방법은, 신호 처리 분야에서 사용되는 컨볼루션(Convolution)연산과 동일한 의미로 해석되기로 한다.
+(중략)
+그러므로 필터 마스크를 영상 모든 픽셀들 위를 순회하면서, 동일 위치의 픽셀 값과 마스크 값을 곱한 값을 누적하는 것이 컨볼루션 연산과 동일한 형태를 따른다.
+< Visual C++ 영상 처리 프로그래밍, 338p ~ 340p >
+
+... 영상 내에서 차를 검출하기 위해서는(ex: 영상의 뺄셈 연산) 차가 무엇이냐는 정의부터 수행해야 한다. 
+(중략)
+영상 인식의 경우 다양한 방법론이 존재하며 가장 복잡한 접근 방식으로 학습을 통한 방법(ex: 딥러닝, CNN, 합성곱신경망)이고
+보다 간단한 인식 방법론은 인식하고자 하는 물체의 특징치 조합을 영상으로부터 추출해 정의한 뒤 현재 영상내에 모델의 특징치 조합과 부합하는 부분이 있는지 탐색함으로써 해결할 수 있다.(ex: SIFT 영상 정합)
+(중략)
+마스크의 구성은 용도에 맞게 구성을 하게 되며, 이는 필터 디자인과 관련된 문제이다. 일반적으로 이는 중첩 이론(Convolution Theory)로 설명될 수 있다. (중략) 영상처리 분야에서는 일반적으로 주어진 목적에 따라 영상을 평활화(smoothing)하거나, 노이즈를 제거하거나, 윤곽 정보를 추출하는 등 전처리 과정을 가장 먼저 수행하게 된다.
+< Visual C++와 OpenCV로 배우는 디지털 영상처리, 179 ~ 180p >
+
+In image processing, a kernel, convolution matrix, or mask is a small matrix. 
+It is used for blurring, sharpening, embossing, edge detection, and more. 
+This is accomplished by doing a convolution between a kernel and an image.
+< https://en.wikipedia.org/wiki/Kernel_(image_processing) >

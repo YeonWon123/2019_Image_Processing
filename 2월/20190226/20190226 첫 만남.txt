@@ -1,0 +1,23 @@
+0~255
+
+class Image;
+// Image class 안에 size() 멤버 함수 두기
+
+
+Image abc[4]
+//abc[1] [][]
+
+// 0 1 2 3
+
+for(int i = 1; i < abs.size()-1; i++)
+{
+	abc[1]
+	for(j)
+		for(k)
+			[][]
+			
+}
+
+컬러 -> 회색조 ?? bmp -> pgm
+
+8장 영상의 기하학적 변환(디지털 영상처리)

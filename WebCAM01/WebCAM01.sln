@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WebCAM01", "WebCAM01.vcxproj", "{91BEB457-F3D1-4CBD-8E9C-57AE12CFCE1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91BEB457-F3D1-4CBD-8E9C-57AE12CFCE1D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{91BEB457-F3D1-4CBD-8E9C-57AE12CFCE1D}.Debug|Win32.Build.0 = Debug|Win32
+		{91BEB457-F3D1-4CBD-8E9C-57AE12CFCE1D}.Release|Win32.ActiveCfg = Release|Win32
+		{91BEB457-F3D1-4CBD-8E9C-57AE12CFCE1D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
